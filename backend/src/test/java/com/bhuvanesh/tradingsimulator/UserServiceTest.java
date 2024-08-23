@@ -1,12 +1,13 @@
-package com.nikolagrujic.tradingsimulator;
+package com.bhuvanesh.tradingsimulator;
 
-import com.nikolagrujic.tradingsimulator.model.User;
-import com.nikolagrujic.tradingsimulator.repository.UserRepository;
-import com.nikolagrujic.tradingsimulator.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.bhuvanesh.tradingsimulator.model.User;
+import com.bhuvanesh.tradingsimulator.repository.UserRepository;
+import com.bhuvanesh.tradingsimulator.service.UserService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
